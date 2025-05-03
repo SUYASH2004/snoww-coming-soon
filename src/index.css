@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: #f0f9ff;
+  color: #333;
+   overflow-x: hidden;
+   overflow-y: auto;
+  
+  
+}
+
+.container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.countdown {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.about,
+.team {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.snowflake {
+  position: fixed;
+  top: -10px;
+  z-index: 9999;
+  color: #ccc;
+  font-size: 1.5em;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
+
+.team h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.team-member {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 1em;
+  color: #555;
+}
+.explore-team-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.explore-team-button button {
+  padding: 12px 30px;
+  font-size: 1.1em;
+  background-color: #8ecae6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.explore-team-button button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
+.team {
+  transition: padding 0.4s ease, max-height 0.5s ease;
+  overflow: hidden;
+}
+
+.creator-name {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: 	#3a506b;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
