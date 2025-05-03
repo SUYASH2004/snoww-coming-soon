@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>🚀 Launching Soon: My UI Library</h1>
+      <h1>🚀 Launching Soon: SnowwUI Library</h1>
       <Countdown targetDate={launchDate} />
 
       {/* About Me Section */}
